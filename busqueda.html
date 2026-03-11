@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda FMGA</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+</head>
+
+<body>
+
+<header>
+  <div>
+    <p>
+      Envío 24/48h  Devoluciones · Atención al cliente ·
+      <a href="ayuda.html">Ayuda</a> ·
+      <a href="index.html">Tienda</a>·
+      <a href="login.html">Cuenta</a>
+    </p>
+  </div>
+
+  <div>
+    <h1>Tienda FMGA</h1>
+
+    <form >
+      <label >Buscar</label>
+      <input type="search" placeholder="Buscar productos, marcas..." />
+      <button type="submit">Buscar</button>
+    </form>
+
+  
+  </div>
+</header>
+
+<main>
+
+  
+
+  <hr>
+
+  <div>
+    <h3>Filtrar</h3>
+
+    <form >
+      <fieldset>
+        <legend>Búsqueda</legend>
+        <input type="search" placeholder="Ej. Nvidia 3060">
+      </fieldset>
+
+      <fieldset>
+        <legend>Precio</legend>
+        <input type="number" placeholder="minimo">
+        <input type="number" placeholder="maximo">
+      </fieldset>
+
+      <button type="submit">Aplicar</button>
+    </form>
+  </div>
+
+  <hr>
+
+  
+
+<table border="1" width="100%">
+  <caption>Listado de tarjetas gráficas</caption>
+
+  <tr>
+    <th>Producto</th>
+    <th>Imagen</th>
+    <th>Características</th>
+    <th>Precio</th>
+    <th>Acciones</th>
+  </tr>
+
+  <tr>
+    <td>
+      ASUS Dual GeForce RTX 4070 OC 12GB GDDR6X
+
+    </td>
+    <td>
+      <img src="data:image/jpeg;base64,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" alt="GPU Ejemplo 1" width="120">
+    </td>
+    <td>
+      <ul>
+        <li>12GB VRAM</li>
+        <li>HDMI / DisplayPort</li>
+        <li>Recomendado 1440p</li>
+        <li>Envío 24/48h</li>
+      </ul>
+    </td>
+    <td>
+      599,00 €<br>
+      Vendido por TiendaTech
+    </td>
+      <td>
+      <button>Añadir al carrito</button>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      MSI Radeon RX 7900 XT Gaming X Trio 16GB GDDR6 
+    </td>
+    <td>
+      <img src="imagenes/f1.jpg" alt="GPU Ejemplo 2" width="120">
+    </td>
+    <td>
+      <ul>
+        <li>16GB VRAM</li>
+        <li>Recomendado 4K</li>
+        <li>Soporte anti-sag</li>
+        <li>En stock</li>
+      </ul>
+    </td>
+    <td>
+      799,00 €<br>
+      Antes 899,00 €
+    </td>
+     <td>
+      <button>Añadir al carrito</button>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+     Gigabyte GeForce RTX 3060 Windforce OC 8GB GDDR6
+
+    </td>
+    <td>
+      <img src="https://img.pccomponentes.com/articles/1057/10577665/1766-gigabyte-geforce-rtx-3060-windforce-oc-12gb-gddr6.jpg" alt="GPU Ejemplo 3" width="120">
+    </td>
+    <td>
+      <ul>
+        <li>8GB VRAM</li>
+        <li>Recomendado 1080p</li>
+        <li>Consumo bajo</li>
+        <li>Envío 24/48h</li>
+      </ul>
+    </td>
+    <td>
+      249,00 €
+    </td>
+     <td>
+      <button>Añadir al carrito</button>
+      
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+    Sapphire Radeon RX 7900 XTX Nitro+ 24GB GDDR6
+
+    </td>
+    <td>
+      <img src="imagenes/f2.webp" alt="GPU Ejemplo 4" width="120">
+    </td>
+    <td>
+      <ul>
+        <li>24GB VRAM</li>
+        <li>Recomendado 4K / Creación</li>
+        <li>Ideal para render e IA</li>
+        <li>Bajo stock</li>
+      </ul>
+    </td>
+    <td>
+      1199,00 €
+    </td>
+    <td>
+      <button>Añadir al carrito</button>
+      
+      
+    </td>
+  </tr>
+
+</table>
+
+
+
+
+
+
+  
+
+</main>
+
+<!--FOOTER-->
+    <hr>
+
+<footer style="background-color: black;">
+  <p style="color: white;">Pago seguro · Protección de datos</p>
+  <p style="color:white;">© 2025 Tienda FMGA</p>
+</footer>
+
+</body>
+</html>
