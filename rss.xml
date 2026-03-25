@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Tienda FMGA - Novedades tecnológicas</title>
+    <link>https://franciscomanuel663-satck.github.io/v1/</link>
+    <description>Canal RSS con novedades y contenidos relacionados con productos de informática y tecnología de Tienda FMGA.</description>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 25 Mar 2026 12:00:00 +0100</lastBuildDate>
+
+    <item>
+      <title>Nuevos portátiles para estudiantes disponibles</title>
+      <link>https://www.intel.com/content/www/es/es/products/docs/processors/core/core-processor-overview.html</link>
+      <description>Consulta información sobre procesadores y equipos actuales ideales para estudio, ofimática y uso diario.</description>
+      <pubDate>Wed, 25 Mar 2026 10:00:00 +0100</pubDate>
+      <guid>fmga-portatiles-estudiantes-20260325</guid>
+    </item>
+
+    <item>
+      <title>Tarjetas gráficas recomendadas para jugar a 1080p y 1440p</title>
+      <link>https://www.nvidia.com/es-es/geforce/graphics-cards/</link>
+      <description>Recurso con novedades sobre tarjetas gráficas actuales para gaming y trabajo gráfico.</description>
+      <pubDate>Tue, 24 Mar 2026 18:00:00 +0100</pubDate>
+      <guid>fmga-gpus-20260324</guid>
+    </item>
+
+    <item>
+      <title>Mejora tu conexión con routers Wi‑Fi de nueva generación</title>
+      <link>https://www.tp-link.com/es/home-networking/wifi-router/</link>
+      <description>Descubre opciones de routers y redes domésticas para mejorar velocidad, cobertura y estabilidad.</description>
+      <pubDate>Mon, 23 Mar 2026 16:00:00 +0100</pubDate>
+      <guid>fmga-routers-20260323</guid>
+    </item>
+  </channel>
+</rss>

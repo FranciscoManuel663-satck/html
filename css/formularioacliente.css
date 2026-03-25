@@ -1,0 +1,67 @@
+
+body {
+  background-color: #eef3f8;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 34px;
+}
+
+form {
+  width: 90%;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 3px solid #d9e2ec;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+form p {
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  color: #1d3557;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+form button {
+  min-width: 140px;
+}
+
+a button {
+  display: block;
+  margin: 10px auto 30px auto;
+}
+
+/* Pseudoclases */
+input:hover,
+select:hover,
+textarea:hover {
+  background-color: #f7fbff;
+  border-color: #457b9d;
+}
+
+button:active {
+  background-color: #0b2545;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  form {
+    width: 95%;
+    padding: 18px;
+  }
+
+  form button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,82 @@
+
+#guia-gpu {
+  margin: 30px;
+  padding: 25px;
+  border: 3px solid #d9e2ec;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#guia-gpu h1 {
+  font-size: 34px;
+  color: #0d1b2a;
+}
+
+#guia-gpu p {
+  font-size: 17px;
+}
+
+#guia-gpu > div {
+  margin-top: 20px;
+  padding: 18px;
+  border: 2px solid #dbe4ee;
+  background-color: #f8fbff;
+  border-radius: 8px;
+}
+
+#guia-gpu > div:hover {
+  background-color: #eaf2ff;
+  border-color: #457b9d;
+}
+
+#ayuda,
+#mi-cuenta-lista,
+#empresa-lista,
+#legal-lista {
+  padding-left: 20px;
+}
+
+#ayuda li,
+#mi-cuenta-lista li,
+#empresa-lista li,
+#legal-lista li {
+  margin-bottom: 10px;
+}
+
+#metodos-pago {
+  margin: 30px;
+  padding: 25px;
+  border: 3px solid #d9e2ec;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#metodos-pago ul {
+  padding-left: 20px;
+}
+
+#metodos-pago li {
+  margin-bottom: 10px;
+  color: white
+}
+
+#metodos-pago button {
+  margin-top: 15px;
+}
+#metodos-pago button a{
+  color: white;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  #guia-gpu,
+  #metodos-pago {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #guia-gpu h1 {
+    font-size: 28px;
+  }
+}

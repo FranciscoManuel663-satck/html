@@ -1,0 +1,148 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 15px 20px;
+  border-bottom: 4px solid #415a77;
+  z-index: 1000;
+}
+
+header p {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}
+
+header a {
+  color: #a8dadc;
+}
+
+header a:hover {
+  background-color: #457b9d;
+  color: white;
+  padding: 4px 8px;
+}
+
+header h1 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+body {
+  padding-top: 140px;
+}
+
+#banner {
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid #cbd5e1;
+  background-color: white;
+  text-align: center;
+}
+
+#banner img {
+  border-radius: 10px;
+}
+
+#banner:hover {
+  background-color: #eef5ff;
+  border-color: #1d3557;
+}
+
+#productos {
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #d9e2ec;
+  background-color: #ffffff;
+}
+
+#productos h2 {
+  margin-bottom: 20px;
+}
+
+#productos table {
+  width: 100%;
+  border-spacing: 18px;
+  text-align: center;
+}
+
+#productos td {
+  vertical-align: top;
+  background-color: #f8fbff;
+  border: 2px solid #dbe4ee;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#productos td:hover {
+  background-color: #eaf2ff;
+  border-color: #457b9d;
+}
+
+#productos strong {
+  color: #0d1b2a;
+  font-size: 18px;
+}
+
+#newsletter {
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #d9e2ec;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#newsletter input[type="email"] {
+  width: 280px;
+}
+
+#newsletter input[type="checkbox"] {
+  width: auto;
+}
+
+/* Responsive móvil */
+@media (max-width: 768px) {
+  body {
+    padding-top: 170px;
+  }
+
+  #productos table,
+  #productos tr,
+  #productos td {
+    display: block;
+    width: 100%;
+  }
+
+  #productos td {
+    margin-bottom: 20px;
+  }
+
+  #banner img {
+    height: auto;
+  }
+
+  #newsletter form {
+    flex-direction: column;
+  }
+
+  #newsletter input[type="email"] {
+    width: 100%;
+  }
+}

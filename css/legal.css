@@ -1,0 +1,55 @@
+
+h1 {
+  margin-top: 30px;
+  font-size: 34px;
+}
+
+#aviso-legal,
+#privacidad,
+#cookies,
+#terminos-condiciones {
+  margin: 25px;
+  padding: 20px;
+  border: 3px solid #d9e2ec;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#aviso-legal:hover,
+#privacidad:hover,
+#cookies:hover,
+#terminos-condiciones:hover {
+  background-color: #eef5ff;
+  border-color: #457b9d;
+}
+
+#aviso-legal h2,
+#privacidad h2,
+#cookies h2,
+#terminos-condiciones h2 {
+  text-align: left;
+  color: #0d1b2a;
+}
+
+#aviso-legal p,
+#privacidad p,
+#cookies p,
+#terminos-condiciones p {
+  font-size: 17px;
+}
+
+a button {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #aviso-legal,
+  #privacidad,
+  #cookies,
+  #terminos-condiciones {
+    margin: 15px;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,91 @@
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 15px 20px;
+  border-bottom: 4px solid #415a77;
+  z-index: 1000;
+}
+
+header p {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}
+
+header h1 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+body {
+  padding-top: 150px;
+}
+
+body > h1 {
+  margin-top: 10px;
+}
+
+#quienes-somos,
+#trabaja-con-nosotros,
+#prensa,
+#afiliados,
+#tiendas {
+  margin: 25px;
+  padding: 20px;
+  border: 3px solid #d9e2ec;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#quienes-somos:hover,
+#trabaja-con-nosotros:hover,
+#prensa:hover,
+#afiliados:hover,
+#tiendas:hover {
+  background-color: #eef5ff;
+  border-color: #457b9d;
+}
+
+#quienes-somos h2,
+#trabaja-con-nosotros h2,
+#prensa h2,
+#afiliados h2,
+#tiendas h2 {
+  text-align: left;
+}
+
+iframe {
+  margin-top: 15px;
+  border: 3px solid #d9e2ec;
+  border-radius: 10px;
+}
+
+a button {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding-top: 180px;
+  }
+
+  #quienes-somos,
+  #trabaja-con-nosotros,
+  #prensa,
+  #afiliados,
+  #tiendas {
+    margin: 15px;
+    padding: 15px;
+  }
+}
