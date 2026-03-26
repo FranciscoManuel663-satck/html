@@ -29,7 +29,7 @@
 
     <!-- ENLACE RSS -->
     <p style="text-align: center; margin-top: 10px;">
-      📡 <a href="rss.xml" target="_blank">Suscríbete a nuestras novedades (RSS)</a>
+       <a href="rss.xml" target="_blank">Suscríbete a nuestras novedades (RSS)</a>
     </p>
   </header>
 
@@ -40,13 +40,8 @@
     <img src="imagenes/banner.png" alt="Banner principal" width="100%" height="500" />
   </div>
 
-  <hr />
 
-  <!-- 🔥 NUEVA SECCIÓN NOVEDADES -->
-  <section id="novedades" style="text-align:center; padding:20px;">
-    <h2>🆕 Últimas novedades</h2>
-    <ul id="rss-feed" style="list-style:none;"></ul>
-  </section>
+
 
   <hr />
 
@@ -99,7 +94,7 @@
 
   <!-- NEWSLETTER -->
   <div id="newsletter">
-    <p><a href="rss.xml" target="_blank">📡 Ver canal RSS</a></p>
+    
     <h2>Recibe ofertas y novedades</h2>
     <form>
       <input type="email" placeholder="correo">
@@ -116,27 +111,7 @@
     <p style="color:white;">© 2025 Tienda FMGA</p>
   </footer>
 
-  <!-- 🔥 SCRIPT PARA MOSTRAR RSS -->
-  <script>
-    fetch("rss.xml")
-      .then(response => response.text())
-      .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-      .then(data => {
-        const items = data.querySelectorAll("item");
-        const lista = document.getElementById("rss-feed");
-
-        items.forEach(el => {
-          const titulo = el.querySelector("title").textContent;
-          const link = el.querySelector("link").textContent;
-
-          const li = document.createElement("li");
-          li.style.margin = "10px";
-
-          li.innerHTML = `<a href="${link}" target="_blank" style="font-weight:bold;">${titulo}</a>`;
-          lista.appendChild(li);
-        });
-      });
-  </script>
+  
 
 </body>
 </html>
